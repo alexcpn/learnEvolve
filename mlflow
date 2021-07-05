@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T14:52:45.993Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KGilKxKW6SmPOhP3G6re" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T15:15:40.900Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4jsleRlrlI2o5LXHvyhQ" version="14.8.4" type="github">
   <diagram id="zxQOnHT75hqI331MuxVv" name="Page-1">
-    <mxGraphModel dx="2249" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2412" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8FCixvnpVFbNJnkD4VQv-1" value="Apache Drill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="565" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8FCixvnpVFbNJnkD4VQv-2" value="Distributed Task Processing&amp;nbsp;&lt;br&gt;&amp;nbsp;Kubernetes&lt;br&gt;Compute Resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="527" y="680" width="593" height="60" as="geometry" />
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-2" value="Distributed Task Processing&amp;nbsp;&lt;br&gt;&amp;nbsp;Kubernetes&lt;br&gt;Compute Resource" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8FCixvnpVFbNJnkD4VQv-3" value="Data&amp;nbsp; Store -&amp;nbsp;&lt;br&gt;For Scale - Columnar Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-3" value="Data&amp;nbsp; Store -&amp;nbsp;&lt;br&gt;For Efficient&amp;nbsp; Access - Columnar Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="680" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-4" value="Apache HBase&amp;nbsp;&lt;br&gt;---------------&lt;br&gt;&amp;nbsp;HDFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -25,14 +25,11 @@
         <mxCell id="8FCixvnpVFbNJnkD4VQv-7" value="Apache Kudu (C++)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8FCixvnpVFbNJnkD4VQv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8FCixvnpVFbNJnkD4VQv-9" target="8FCixvnpVFbNJnkD4VQv-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-9" value="Google Big Query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="595" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-11" value="Amazon Athena" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8FCixvnpVFbNJnkD4VQv-12" target="8FCixvnpVFbNJnkD4VQv-11">
           <mxGeometry relative="1" as="geometry" />
@@ -47,37 +44,67 @@
           <mxGeometry x="-60" y="595" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-14" value="Apache Airflow&lt;br&gt;--------&lt;br&gt;K8s Operator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="763.5" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-15" value="Kubeflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="763.5" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-16" value="ArgoWorkFlow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="763.5" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8FCixvnpVFbNJnkD4VQv-19" value="Data&amp;nbsp; Access -&amp;nbsp;&lt;br&gt;For Scale -" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="680" width="290" height="60" as="geometry" />
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-19" value="Data&amp;nbsp; Access /Clleaning/Insights/Refactoring&amp;nbsp;&lt;br&gt;For Scale -" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="8FCixvnpVFbNJnkD4VQv-21" target="8FCixvnpVFbNJnkD4VQv-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-21" value="Task Orchestration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="500" width="40" height="20" as="geometry" />
+          <mxGeometry x="813.5" y="510" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-22" value="Pandas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="8FCixvnpVFbNJnkD4VQv-23" target="8FCixvnpVFbNJnkD4VQv-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-23" value="Dask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FCixvnpVFbNJnkD4VQv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8FCixvnpVFbNJnkD4VQv-24" target="8FCixvnpVFbNJnkD4VQv-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8FCixvnpVFbNJnkD4VQv-24" value="Dcoker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-24" value="Alogrithm --&amp;gt;Docker--&amp;gt;Pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-30" value="Azure Data Lake Analytics &lt;br&gt;----&lt;br&gt;Azure-COSMOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-31" value="Hosted Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="635" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-34" value="Data&amp;nbsp; Storage -&amp;nbsp;&lt;br&gt;Object Storage (S3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="680" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-35" value="Google Cloud Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-36" value="Amazon S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-37" value="Azure Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-38" value="Hosted Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="635" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-39" value="Ceph S3&lt;br&gt;----&lt;br&gt;RHEL Linux Nodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-40" value="Rook-Ceph S3&lt;br&gt;----&lt;br&gt;Kubernetes Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8FCixvnpVFbNJnkD4VQv-41" value="MiniIO&amp;nbsp; S3&lt;br&gt;----&lt;br&gt;Kubernetes Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
