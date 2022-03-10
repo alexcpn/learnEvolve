@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T04:14:49.234Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="a5M9IFR64DFZMCrKhAkA" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T05:41:05.924Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Q_mRucjGftxYDGwmmzhY" version="17.0.0" type="github">
   <diagram id="yZM8NwClX0w2UkNl1lh3" name="Page-1">
     <mxGraphModel dx="1422" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CuVCgYytFF23lF0fBnbo-1" value="S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="430" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -20,10 +20,52 @@
           <mxGeometry x="354" y="540" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-6" value="Azure Blob Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="540" width="60" height="30" as="geometry" />
+          <mxGeometry x="270" y="600" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-7" value="Any other&lt;br&gt;&amp;nbsp;S3 provider&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="540" width="60" height="30" as="geometry" />
+          <mxGeometry x="354" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="420" as="sourcePoint" />
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-9" value="Storage Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="305" as="sourcePoint" />
+            <mxPoint x="626" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-11" value="Data&lt;br&gt;Format" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="216" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-12" value="Apache&lt;br&gt;Parquet ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-13" value="HDFS&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-14" value="Ap* ORC,Ap Avro,JSON&lt;br&gt;CSS. &lt;br&gt;Proprietary ex SSTable (Cassandra) ..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="474" y="320" width="166" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-16" value="Cloudera, MapR&lt;br&gt;HortonWorks etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-18" value="Proprietary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="430" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-19" value="Ap* Cassandra&lt;br&gt;Postgres, MariaDB etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
