@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:20:06.763Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="0S3H_N0VEUndHTGuLIrl" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:04:02.199Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZTdSj-EExg3OhbyN5T71" version="17.0.0" type="github">
   <diagram id="yZM8NwClX0w2UkNl1lh3" name="Page-1">
     <mxGraphModel dx="2249" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-88" value="&lt;b&gt;Data&lt;/b&gt; &lt;b&gt;Lake&lt;/b&gt; is&lt;br&gt;data stored in &lt;i&gt;&lt;u&gt;highly&lt;/u&gt;&lt;/i&gt; scale-able object storage/S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-260" y="433.75" width="170" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-89" value="&lt;b&gt;Data&lt;/b&gt; &lt;b&gt;Lakehouse&lt;/b&gt; is&lt;br&gt;Data Stored in Data Lake&lt;br&gt;But queried like Data Warehouse" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-89" value="&lt;b&gt;Data&lt;/b&gt; &lt;b&gt;Lakehouse&lt;/b&gt; is&lt;br&gt;Data Stored in Data Lake&lt;br&gt;But queried like Data Warehouse&lt;br&gt;OLAP type workload" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-81" y="10" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-90" value="&amp;nbsp;Read/Write -&lt;b&gt; No Update&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -175,7 +175,7 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-91" value="&amp;nbsp;Read/Write/Update" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="396" y="250" width="151.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-96" value="Data base+ Integrated Quey Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-96" value="Data base+ Integrated Query Engine&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;OLTP type workload&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="300" y="20" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-104" value="As a Service" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -190,10 +190,10 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-116" value="Analytics, Business Intelligence, Reports&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="261.5" y="-110" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-118" value="Python/R/Jupyter AI/ML code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-118" value="Python/R/Jupyter AI/ML&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="268.5" y="-60" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-119" value="Power BI/ Tableau" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-119" value="Power BI, Tableau, Looker etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="570" y="-60" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-120" value="Power BI/ Tableau&lt;br&gt;Google Vertex AI. Azure ML, AWS SageMaker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
