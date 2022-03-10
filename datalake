@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T12:04:02.199Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZTdSj-EExg3OhbyN5T71" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:12:44.628Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="K7QUM97TuQuQz7Azd4W6" version="17.0.0" type="github">
   <diagram id="yZM8NwClX0w2UkNl1lh3" name="Page-1">
     <mxGraphModel dx="2249" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-16" value="Cloudera, MapR&lt;br&gt;HortonWorks etc" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="403.75" width="108.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-18" value="FS/ other Storage soln" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-18" value="FS/ other Storage soln" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="448.5" y="410" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-23" value="ETL Code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -95,10 +95,10 @@
             <mxPoint x="530" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-32" value="Cassandra, Postgres, MongoDB,(NoSQL/SQL)&lt;br&gt;&amp;nbsp;ElasticSearch/Spluk (log search), Prometheus,InfluxDB (Time series DB),&lt;br&gt;&amp;nbsp;Titan( Graph DB) etc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-32" value="Cassandra, Postgres, MongoDB,(NoSQL/SQL)&lt;br&gt;&amp;nbsp;ElasticSearch/Spluk (log search), Prometheus,InfluxDB (Time series DB),&lt;br&gt;&amp;nbsp;Titan( Graph DB) etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="416" y="100" width="184" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-38" value="Apache Druid DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-38" value="Apache Druid DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="547.5" y="210" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" source="CuVCgYytFF23lF0fBnbo-45" target="CuVCgYytFF23lF0fBnbo-23">
@@ -131,7 +131,7 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-54" value="DataBricks&lt;br&gt;(based on DeltaLake" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-71.5" y="188.75" width="138.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-58" value="&lt;b&gt;Data&lt;/b&gt; &lt;b&gt;Warehouse&lt;/b&gt;&lt;br&gt;is structured data via ETL from many source&lt;br&gt;stored in a scale-able DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-58" value="&lt;b&gt;Data&lt;/b&gt; &lt;b&gt;Warehouse&lt;/b&gt;&lt;br&gt;is structured data via ETL from many source&lt;br&gt;stored in a scale-able DB" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="554.25" y="3.75" width="281.5" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-63" value="AWS Athena" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -184,7 +184,7 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-105" value="Open Source" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="168.5" y="533.25" width="471.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-107" value="As a Service" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CuVCgYytFF23lF0fBnbo-107" value="As a Service" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="533.25" width="140" height="26.75" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-116" value="Analytics, Business Intelligence, Reports&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
@@ -198,6 +198,15 @@
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-120" value="Power BI/ Tableau&lt;br&gt;Google Vertex AI. Azure ML, AWS SageMaker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-131" y="-60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-121" value="Red - outdated technology/service" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="600" width="226" height="26.75" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-122" value="Green -Current technology/service&lt;br&gt;Most Apt for OLAP workloads" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="600" width="226" height="26.75" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-123" value="White -Always relevant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="600" width="226" height="26.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
