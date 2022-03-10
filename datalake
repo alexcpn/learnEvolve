@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:54:43.637Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GbMc2cGHJ3tmx9DfgIAB" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T07:09:02.323Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QG-lmuQOmOLojhgAsXnD" version="17.0.0" type="github">
   <diagram id="yZM8NwClX0w2UkNl1lh3" name="Page-1">
     <mxGraphModel dx="2249" dy="2057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,8 +27,8 @@
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="98.5" y="419" as="sourcePoint" />
-            <mxPoint x="598.5" y="420" as="targetPoint" />
+            <mxPoint x="22" y="414" as="sourcePoint" />
+            <mxPoint x="611" y="414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-9" value="Storage Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-23" value="ETL Code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="300" width="86" height="60" as="geometry" />
+          <mxGeometry x="-80" y="300" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -95,6 +95,14 @@
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-28" value="Security,Multi tenancy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="118.5" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CuVCgYytFF23lF0fBnbo-29" target="CuVCgYytFF23lF0fBnbo-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="270" />
+              <mxPoint x="212" y="270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-29" value="Apache PrestoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="210" width="63" height="50" as="geometry" />
@@ -130,10 +138,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-39" value="Kafka" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry y="195" width="60" height="80" as="geometry" />
+          <mxGeometry x="-80" y="195" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-45" value="Different&amp;nbsp;&lt;br&gt;Data Source" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="240" width="60" height="30" as="geometry" />
+        <mxCell id="CuVCgYytFF23lF0fBnbo-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="CuVCgYytFF23lF0fBnbo-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-45" value="Different&amp;nbsp;&lt;br&gt;Data Source&lt;br&gt;to&lt;br&gt;Data Lake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-46" value="&lt;br&gt;As a Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="58.5" y="-30" width="60" height="30" as="geometry" />
@@ -168,8 +181,8 @@
         <mxCell id="CuVCgYytFF23lF0fBnbo-55" value="ElasticCloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="393.5" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CuVCgYytFF23lF0fBnbo-58" value="Data Warehouse" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="60" width="80" height="30" as="geometry" />
+        <mxCell id="CuVCgYytFF23lF0fBnbo-58" value="&lt;b&gt;Data Warehouse&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-60" value="DataBase" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="336" y="60" width="80" height="30" as="geometry" />
@@ -197,6 +210,12 @@
         </mxCell>
         <mxCell id="CuVCgYytFF23lF0fBnbo-70" value="MapReduce" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="230" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-77" value="&lt;b&gt;Data Lake&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-23.94" y="480" width="150" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CuVCgYytFF23lF0fBnbo-79" value="&lt;b&gt;Query Data Lake&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-31.5" y="69" width="150" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
